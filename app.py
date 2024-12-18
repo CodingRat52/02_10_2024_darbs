@@ -26,13 +26,13 @@ def index():
     return render_template("index.html")
 
 #API, lai iegūtu visus ierakstūs
-@app.route("api/data", methods=["GET"])
+@app.route("/api/data", methods=["GET"])
 def get_data():
     data = load_data()
     return jsonify(data)
 
 #API, lai pievienotu datus
-@app.route("api/data", methods=["POST"])
+@app.route("/api/data", methods=["POST"])
 def add_data():
     request_data = request.json
     date = request_data.get("date")

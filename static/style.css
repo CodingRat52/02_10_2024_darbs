@@ -1,0 +1,54 @@
+/*Izvēlēta palēte: https://www.color-hex.com/color-palette/1053872 */
+div { background-color: #cc8572;
+
+
+}
+body {
+    background-color: #661f0c;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+color: #882910;
+font-weight: bold;
+}
+
+th {
+color: #aa3415;
+font-weight: bold;
+}
+
+button {
+ background-color: #661f0c; 
+ border-radius: 12px;  
+ 
+}
+
+button:hover {
+color:#aa3415
+}
+
+h2 {
+color:#bb5c43;
+
+}
+
+#avgTemp {
+color: #aa3415;
+font-style: italic;
+font-size: 14
+}
+
+input  [type="date"], 
+input  [type="number"],
+textarea {display: block;
+margin-bottom: 6px;
+text-decoration-color: #661f0c;
+border: 1px solid;
+border-radius: 4px;
+
+}
